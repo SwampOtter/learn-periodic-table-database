@@ -322,8 +322,19 @@ __vsc_dbg_trap="$(__vsc_get_trap DEBUG)"
 trap '__vsc_preexec_all "$_"' DEBUG
 __vsc_original_prompt_command=${PROMPT_COMMAND:-}
 psql --username=freecodecamp --dbname=postgres
+<<<<<<< HEAD
 >>>>>>> ad07738 (starting fresh)
 git config pull.ff only
 git status
 git add .
 git commit -m "is this right?"
+=======
+git config pull.rebase true
+git commit -m "starting fresh"
+git add
+git add .
+>>>>>>> 2d95057 (starting fresh)
+git config pull.rebase true
+git config pull.rebase false
+git status
+git add .
