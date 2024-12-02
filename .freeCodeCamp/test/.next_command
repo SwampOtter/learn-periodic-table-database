@@ -326,3 +326,4 @@ psql --username=freecodecamp --dbname=postgres
 git config pull.ff only
 git status
 git add .
+git commit -m "is this right?"
